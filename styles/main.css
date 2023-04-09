@@ -1,0 +1,109 @@
+h1 {
+  color: #222936;
+  font-size: 150px;
+  font-family: 'Montserrat', san-serif;
+  font-weight:600;
+}
+h2 {
+  font-family: 'Montserrat', san-serif;
+  font-size: 40px;
+  font-weight:100;
+  color:#222936;
+}
+h3 {
+    font-family: 'Montserrat', san-serif;
+    font-size: 20px;
+    font-weight:600;
+    color:#f3f5f7;
+}
+p {
+  font-family: 'Montserrat', san-serif;
+  padding-top: 10px;
+}
+
+.menunav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.menunav a{
+  float: left;
+  color: #7e7e7e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Montserrat', san-serif;
+  font-weight:600;
+}
+.menunav a:hover {
+  background-color: #848484;
+  color: black;
+}
+
+.menunav a.active {
+  background-color: #0c1f53;
+  color: white;
+}
+.intro-image {
+  height: 600px;
+  float: right;
+
+}
+
+.sprint1-image {
+  width: 600px;
+  float: right;
+}
+.home-content {
+  width: 900px;
+  float: left;
+}
+.values-content {
+  width: 100%;
+  float: left;
+}
+.intro-h1 {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.home-body {
+  padding-top: 10px;
+  margin-top: 0px;
+}
+hr.solid {
+  margin-top:50px;
+  margin-bottom: 50px;
+  border-top: 2px solid #bbb;
+}
+.blog-divider {
+  margin-top: 450px;
+}
+.sprint2-image {
+  width: 600px;
+  float: right;
+  margin-top: -20px;
+}
+
+br {
+  padding: 0px;
+  margin: 10px;
+}
+
+.descriptions {
+ background-color: #222936;
+ color: #ffffff; 
+}
+.h2-descriptions {
+padding: 20px;
+}
+.padding {
+  width: 800px;
+  padding-left: 0px;
+}
+.sushi {
+  width: 800px;
+  padding-left: 0px;
+}
