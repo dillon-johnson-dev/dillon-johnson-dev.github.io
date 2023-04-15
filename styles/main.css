@@ -20,7 +20,10 @@ p {
   font-family: 'Montserrat', san-serif;
   padding-top: 10px;
 }
-
+ol {
+  font-family: 'Montserrat', san-serif;
+  padding-top: 10px;
+}
 .menunav {
   overflow: hidden;
   background-color: #ffffff;
@@ -55,6 +58,12 @@ p {
   width: 600px;
   float: right;
 }
+.sprint3-image {
+  width: 600px;
+  float: right;
+  margin-top: -30px;
+}
+
 .home-content {
   width: 900px;
   float: left;
@@ -84,7 +93,7 @@ p {
 .sprint2-image {
   width: 600px;
   float: right;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 br {
@@ -104,6 +113,16 @@ padding: 20px;
   padding-left: 0px;
 }
 .sushi {
+  width: 800px;
+  padding-left: 0px;
+}
+
+.sandwhich {
+  width: 800px;
+  padding-left: 0px;
+}
+
+.dom {
   width: 800px;
   padding-left: 0px;
 }
