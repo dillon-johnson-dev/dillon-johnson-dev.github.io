@@ -1,6 +1,6 @@
 h1 {
   color: #222936;
-  font-size: 150px;
+  font-size: 120px;
   font-family: 'Montserrat', san-serif;
   font-weight:600;
 }
@@ -20,6 +20,11 @@ p {
   font-family: 'Montserrat', san-serif;
   padding-top: 10px;
 }
+.link {
+  font-family: 'Montserrat', san-serif;
+  padding-top: 10px;
+}
+
 ol {
   font-family: 'Montserrat', san-serif;
   padding-top: 10px;
