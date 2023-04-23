@@ -14,7 +14,9 @@ h3 {
     font-family: 'Montserrat', san-serif;
     font-size: 20px;
     font-weight:600;
-    color:#f3f5f7;
+    color:#232424;
+    padding: 0px;
+    margin: 0px;
 }
 p {
   font-family: 'Montserrat', san-serif;
