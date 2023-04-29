@@ -71,8 +71,21 @@ ol {
   margin-top: -30px;
 }
 
+.sprint4-image {
+  width: 600px;
+  float: right;
+  margin-top: -30px;
+}
+
+.sprint5-image {
+  width: 600px;
+  float: right;
+  margin-top: -30px;
+}
+
+
 .home-content {
-  width: 900px;
+  width: 800px;
   float: left;
 }
 .values-content {
