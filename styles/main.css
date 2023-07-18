@@ -1,6 +1,6 @@
 .space {
-  width: 400vw;
-  height: 400vh;
+  width: 200vw;
+  height: 200vh;
   margin: 0;
   background: #030917;
   overflow: hidden;
@@ -8,10 +8,9 @@
 
 .overlay {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bottom: 50%; */
-  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 30%;
+  transform: translate(-20%, -30%);
   text-align: center;
   z-index: 1;
 }
