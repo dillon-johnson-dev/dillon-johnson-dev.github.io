@@ -1,3 +1,12 @@
+.space {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #030917;
+  overflow: hidden;
+}
+
+
 body {
   background-color:rgb(255, 254, 241);
 }
