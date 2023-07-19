@@ -2,7 +2,53 @@
   position: relative;
 }
 
-.textbox {
+.textbox1 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2%;
+  background-color: #030917;
+  border-radius: 1px;
+  display: none;
+  width: 100px;
+}
+
+.p-textbox1 {
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+ line-height: 1.2rem;
+ color: #C5D4CE;
+ 
+}
+
+.button-container:hover .textbox1 {
+  display: block;
+}
+.textbox2 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2%;
+  background-color: #030917;
+  border-radius: 1px;
+  display: none;
+  width: 100px;
+}
+
+.p-textbox2 {
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+ line-height: 1.2rem;
+ color: #C5D4CE;
+ 
+}
+
+.button-container:hover .textbox2 {
+  display: block;
+}
+.textbox3 {
   position: absolute;
   top: -450%;
   left: -335%;
@@ -14,7 +60,7 @@
   width: 280px;
 }
 
-.p-textbox {
+.p-textbox3 {
  font-family: 'Raleway', sans-serif;
  font-size: 14px;
  line-height: 1.2rem;
@@ -22,6 +68,30 @@
  
 }
 
-.button-container:hover .textbox {
+.button-container:hover .textbox3 {
+  display: block;
+}
+
+.textbox4 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2%;
+  background-color: #030917;
+  border-radius: 1px;
+  display: none;
+  width: 100px;
+}
+
+.p-textbox4 {
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+ line-height: 1.2rem;
+ color: #C5D4CE;
+ 
+}
+
+.button-container:hover .textbox4 {
   display: block;
 }
