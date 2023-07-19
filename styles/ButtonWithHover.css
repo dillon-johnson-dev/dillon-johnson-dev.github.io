@@ -4,14 +4,14 @@
 
 .textbox {
   position: absolute;
-  top: -350%;
-  left: -350%;
+  top: -450%;
+  left: -335%;
   transform: translateX(-50%);
-  padding: 10%;
+  padding: 8%;
   background-color: #030917;
   border-radius: 1px;
   display: none;
-  width: 200px;
+  width: 280px;
 }
 
 .p-textbox {
