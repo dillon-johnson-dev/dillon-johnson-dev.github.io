@@ -1,0 +1,18 @@
+.button-container {
+  position: relative;
+}
+
+.textbox {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2%;
+  background-color: #C5D4CE;
+  border-radius: 1px;
+  display: none;
+}
+
+.button-container:hover .textbox {
+  display: block;
+}
