@@ -52,7 +52,8 @@
 .btn-container {
   display: flex;
   justify-content: flex-start;
-  margin-left: 3%;
+  margin-top: 5%;
+  margin-left: 1%;
   margin-right: 1%;
 }
 
