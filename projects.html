@@ -13,7 +13,49 @@
 </head>
 <body>
 
+<div class="space">
+  <canvas></canvas>
+</div>
+ 
 
+
+<div class="columns-container">
+  <h1 class="h1-column">My Projects</h1>
+  
+   <div class="row">
+    <div class="column left" >
+      <h2 class="h2-column">Piano Pitches</h2>
+        <p class="p-column">
+          For my Piano Pitches team project, we decided on building an interactive
+          piano that contained the voices and comments of members of our cohort.
+          The intention was to create an app that commemorated our time
+          with our cohort and to stretch our creativity and abilities. <br><br> My contributions
+          to this app were assisting in the building of the database, creating the piano to
+          hold audio files, CSS, and testing our code. On top of
+          this, I also was the team's scrum facilitator and acted as the 
+          team lead by allocating tickets to each team member based on our 
+          planning and individual learning objectives. Each morning I would 
+          hold a catch-up and check in on where people were, where they struggled, 
+          and what they would work on next. With this, I would also provide a plan of 
+          attack for the day to assist in our end goal in deployment.
+          <br><br>
+          The languages used in this was: 
+          React, Typescript, Javascript, CSS and HTML.
+          <br><br>
+          Click 
+          <a href="https://github.com/dillon-johnson-dev/Piano-Pitches" target="_blank">here</a> 
+          to view on Github
+        </p>
+    </div>
+    <div class="column right">
+      
+      <img src="./img/pianoPitches.png" alt="Piano Pitches App">
+    
+    </div>
+   </div>
+
+   <!-- <p class="p-title"><a href="https://dillon-johnson-dev.github.io/portfolio.html">Return</a></p> -->
+</div>
    <!-- This is my space background set up -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
    <script>
@@ -23,13 +65,13 @@
  
      function init() {
        scene = new THREE.Scene();
-       camera = new THREE.PerspectiveCamera(60, window.innerWidth / 1000, 1, 1000);
+       camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 1000);
        camera.position.z = 1;
        camera.rotation.x = Math.PI / 2;
  
        renderer = new THREE.WebGLRenderer();
-      //  renderer.setSize(window.innerWidth, window.innerHeight);
-       renderer.setSize(window.innerWidth, 1000);
+       renderer.setSize(window.innerWidth, window.innerHeight);
+      //  renderer.setSize(window.innerWidth, 800);
        document.body.appendChild(renderer.domElement);
  
        starGeo = new THREE.Geometry();
