@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <link href="styles/projects.css" rel="stylesheet" type="text/css">
   <link href="styles/ButtonWithHover.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,111 +12,86 @@
   <title>My Projects</title>
 </head>
 <body>
-
-<div class="space">
-  <canvas></canvas>
-</div>
  
-
-
-<div class="columns-container">
-  <h1 class="h1-column">My Projects</h1>
-  
-   <div class="row">
-    <div class="column left" >
-      <h2 class="h2-column">Piano Pitches</h2>
-        <p class="p-column">
-          For my Piano Pitches team project, we decided on building an interactive
-          piano that contained the voices and comments of members of our cohort.
-          The intention was to create an app that commemorated our time
-          with our cohort and to stretch our creativity and abilities. <br><br> My contributions
-          to this app were assisting in the building of the database, creating the piano to
-          hold audio files, CSS, and testing our code. On top of
-          this, I also was the team's scrum facilitator and acted as the 
-          team lead by allocating tickets to each team member based on our 
-          planning and individual learning objectives. Each morning I would 
-          hold a catch-up and check in on where people were, where they struggled, 
-          and what they would work on next. With this, I would also provide a plan of 
-          attack for the day to assist in our end goal in deployment.
-          <br><br>
-          The languages used in this was: 
-          React, Typescript, Javascript, CSS and HTML.
-          <br><br>
-          Click 
-          <a href="https://github.com/dillon-johnson-dev/Piano-Pitches" target="_blank">here</a> 
-          to view on Github
-        </p>
-    </div>
-    <div class="column right">
-      
-      <img src="./img/pianoPitches.png" alt="Piano Pitches App">
+  <h1 class="h1-project" style="font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 100px;">My Projects</h1>
     
-    </div>
-   </div>
+  <a href="portfolio.html">
+    <h1 class="h2-project" style="font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 20px; text-transform: uppercase; color: #C5D4CE;">&larr; Return to home</h1>
+  </a>
+<div id="projects-container">
+  
+  <!-- Project 1 -->
+  <div id="project-box1">
 
-   <!-- <p class="p-title"><a href="https://dillon-johnson-dev.github.io/portfolio.html">Return</a></p> -->
+    
+      <br>
+      <br>
+      <br>
+
+      <div class="project-left" >
+        <h2 class="h2-project" style="color: #081525; font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 30px;">Piano Pitches</h2>
+          <p class="p-project">
+            For my Piano Pitches team project, we decided on building an interactive
+            piano that contained the voices and comments of members of our cohort.
+            The intention was to create an app that commemorated our time
+            with our cohort and to stretch our creativity and abilities. <br><br> My contributions
+            to this app were assisting in the building of the database, creating the piano to
+            hold audio files, CSS, and testing our code. On top of
+            this, I also was the team's scrum facilitator and acted as the 
+            team lead by allocating tickets to each team member based on our 
+            planning and individual learning objectives. Each morning I would 
+            hold a catch-up and check in on where people were, where they struggled, 
+            and what they would work on next. With this, I would also provide a plan of 
+            attack for the day to assist in our end goal in deployment.
+            <br><br>
+            The languages used in this was: 
+            React, Typescript, Javascript, CSS and HTML.
+            <br><br>
+            Click 
+            <a href="https://github.com/dillon-johnson-dev/Piano-Pitches" target="_blank">here</a> 
+            to view on Github
+          </p>
+      </div>
+      <div class="project-right">
+        <img class="project-image" src="./img/pianoPitches.png" alt="Piano Pitches App">
+      </div>
+    
+  </div> 
+  <br>
+  <br>
+  <hr style="border: 3px solid #141A26;">
+  <br>
+  <br>
+  <!-- Project 2 -->
+  <div id="project-box1">
+
+      <div class="project-left" >
+        <h2 class="h2-project" style="color: #081525; font-family: 'Raleway', sans-serif; font-weight: 300; font-size: 30px;">Quote Generator App</h2>
+          <p class="p-project">
+            To further strengthen my skill set, I've developed a compact quote generator app. 
+            This project has provided a platform for me to enhance my proficiency in HTML, 
+            CSS, JavaScript, and Web APIs. As part of the development process, I've taken 
+            special care to ensure that the app remains responsive across various devices. 
+            <br><br> This endeavor has proven to be a valuable learning experience, allowing 
+            me to apply newfound knowledge and incorporate it into my portfolio. I've seized 
+            the opportunity to integrate techniques and insights gained from this project into 
+            other areas of my work.<br><br>
+            The technologies employed for this project include JavaScript, CSS, and HTML.
+            <br><br>
+            Click 
+            <a href="https://github.com/dillon-johnson-dev/random-quote-generator" target="_blank">here</a> 
+            to access the project on GitHub for more details.
+          </p>
+      </div>
+      <div class="project-right">
+        <img class="project-image" src="./img/quote-generator.gif" alt="Quote Generator App" style="margin-bottom: 10%; padding-top: 5%; align-items: center;">
+      </div>
+    
+  </div> 
+
+
+
 </div>
-   <!-- This is my space background set up -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
-   <script>
-     // Set up scene
-     let scene, camera, renderer;
-     let starGeo, stars;
- 
-     function init() {
-       scene = new THREE.Scene();
-       camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 1000);
-       camera.position.z = 1;
-       camera.rotation.x = Math.PI / 2;
- 
-       renderer = new THREE.WebGLRenderer();
-       renderer.setSize(window.innerWidth, window.innerHeight);
-      //  renderer.setSize(window.innerWidth, 800);
-       document.body.appendChild(renderer.domElement);
- 
-       starGeo = new THREE.Geometry();
-       for (let i = 0; i < 6000; i++) {
-         star = new THREE.Vector3(
-           Math.random() * 600 - 300,
-           Math.random() * 600 - 300,
-           Math.random() * 600 - 300
-         );
-         star.velocity = 0;
-         star.accelerarion = 0.02;
-         starGeo.vertices.push(star);
-       }
-       let base64ImageData = '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'
-       let sprite = new THREE.TextureLoader().load('data:image/png;base64,' + base64ImageData); // Relative path
-       let starMaterial = new THREE.PointsMaterial({
-         color: 0xaaaaaa,
-         size: 0.7,
-         map: sprite
-       });
- 
-       stars = new THREE.Points(starGeo, starMaterial);
-       scene.add(stars);
-       animate();
-     }
- 
-     // Render Loop
-     function animate() {
-       starGeo.vertices.forEach(p=> {
-         p.velocity += p.accelerarion;
-         p.y -= p.velocity;
-         if(p.y <-200) {
-           p.y = 200;
-           p.velocity = 0;
-         } 
-       })
-       starGeo.verticesNeedUpdate = true;
-       stars.rotation.y += 0.002;
-       renderer.render(scene, camera);
-       requestAnimationFrame(animate);
-     }
- 
-     init();
-   </script>
-
 
 
 
