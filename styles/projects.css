@@ -1,3 +1,24 @@
+.btn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-block;
+  padding: 15px 15px 15px 15px;
+  margin: 10px;
+  background-color: #081525;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #C5D4CE;
+  color: #081525;
+}
+
+
+
+
+
 body {
   background-image: url(../img/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg);
   /* background: linear-gradient(#0D0D0D, #141A26); */
@@ -26,6 +47,7 @@ body {
   position: relative;
   z-index: 1;
   background: white;
+  margin-top: 10px;
 }
 
 #project-box1 {
