@@ -1,0 +1,140 @@
+body {
+  /* background-image: url(../img/bg.jpeg); */
+
+    
+  background: linear-gradient(147deg, rgba(14,24,38,1) 0%, rgba(217,80,30,1) 49%, rgba(217,142,115,1) 100%);
+    
+  
+  font-family: 'Raleway', sans-serif;
+  color: var(--color-white);
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/grain.jpg') repeat;
+  opacity: 0.1; /* Adjusts the opacity for the grain effect */
+  pointer-events: none; /* Ensures the grain texture doesn't interfere with interactions */
+  z-index: -1; /* Places the grain texture behind other content */
+}
+
+:root {
+  --color-primary: #0E1826;
+  --color-secondary: #D9501E;
+  --color-primary-variant: #F2AB6D;
+  --color-secondary-variant: #D98E73;
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-lg: 90%;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+section {
+  margin-top: 8rem;
+  height: 100vh;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-light);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.75rem 1.2rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  border-radius: 50px;
+  transition: background-color 400ms ease, color 400ms ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-primary);
+  border-color: transparent;
+}
+
+.btn-primary {
+  width: max-content;
+  display: inline-block;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 0.75rem 1.2rem;
+  cursor: pointer;
+  border: 1px solid var(--color-secondary);
+  border-radius: 50px;
+  transition: background-color 400ms ease, color 400ms ease;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+  }
+  
+  /* Media Queries (small devices) */
+  @media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  }
